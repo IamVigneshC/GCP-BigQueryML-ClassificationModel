@@ -61,11 +61,11 @@ Now that training is complete, you can evaluate how well the model performs with
 You should see the following result:
 
 
-Row	  roc_auc	  model_quality
+Row	      roc_auc	      model_quality
 
 ---   -------   ------------
 
-1	   0.724588	  decent
+1	          0.724588	        decent
 
 
 
@@ -93,10 +93,10 @@ A key new feature that was added to the training dataset query is the maximum ch
 Evaluate this new model to see if there is better predictive power:
 
 
-Row	  roc_auc	  model_quality
+Row	      roc_auc	      model_quality
 ---   -------   -------------
 
-1	    0.910382  good
+1	           0.910382         good
 
 
 With this new model you now get a roc_auc of 0.91 which is significantly better than the first model.
